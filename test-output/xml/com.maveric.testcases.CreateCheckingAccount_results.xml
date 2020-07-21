@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CreateCheckingAccount"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.447">
+  <properties />
+  
+  
+            <testcase name="createCheckingAccount" time="7.447" classname="com.maveric.testcases.CreateCheckingAccount" />
+      
+</testsuite>

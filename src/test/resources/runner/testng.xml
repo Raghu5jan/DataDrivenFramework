@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+ <test  name="ParaBankRegistration">
+    <classes>
+      <class name="com.maveric.testcases.ParaBankRegistration"/>
+    </classes>
+  </test> <!-- ParaBankRegistration -->
+  
+  <test  name="CreateCheckingAccount">
+    <classes>
+      <class name="com.maveric.testcases.CreateCheckingAccount"/>
+    </classes>
+  </test> <!-- CreateCheckingAccount -->
+
+  <test  name="Transfer Amount">
+    <classes>
+      <class name="com.maveric.testcases.TransferAmount"/>
+    </classes>
+  </test> <!-- Transfer money to another account -->
+  
+  <test  name="Transaction Details">
+    <classes>
+      <class name="com.maveric.testcases.TransactionDetails"/>
+    </classes>
+  </test> <!-- Transaction details -->
+</suite> <!-- Suite -->
